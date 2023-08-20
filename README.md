@@ -1,7 +1,7 @@
 # NakshatraNITT
 Website for Nakshatra NITT
 
-*Tech Stack :*
+## Tech Stack :
 
 * ReactJS
 * SpringBoot
