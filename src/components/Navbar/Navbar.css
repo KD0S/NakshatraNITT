@@ -1,0 +1,19 @@
+.navbar-main {
+   display: flex;
+   justify-content: flex-end;
+   list-style-type: none;
+}
+
+.navbar-container {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 40px;
+   margin: 24px 48px 0px 0px;
+   padding: 10px 32px;
+}
+
+.navbar-container > li > a {
+   font: 600 1rem "Inter", sans-serif;
+   color: white;
+   text-decoration: none;
+}

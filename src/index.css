@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Poppins:wght@800&display=swap');
+
 /* removing default body margin */
 body {
    margin: 0px;
+}
+
+.glassmorphism {
+   background: rgba(30, 16, 123, 0.3);
+   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(7px);
+   border-radius: 12px;
 }
