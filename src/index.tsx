@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import SpaceBackground from './components/SpaceBackground/SpaceBackground';
+import LandingPage from './pages/LandingPage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+   <React.StrictMode>
+      <SpaceBackground />
+      <LandingPage />
+   </React.StrictMode>
 );

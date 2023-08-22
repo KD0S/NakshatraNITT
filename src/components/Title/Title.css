@@ -1,0 +1,35 @@
+.title-main {
+   display: flex;
+   justify-content: flex-end;
+
+   position: absolute;
+   top: 50%; 
+   left: 75%;
+   transform: translate(-50%, -70%);
+
+   /* forces subtitle to be one line */
+   overflow: hidden;
+   white-space: nowrap;   
+}
+
+.title-container {
+   display: flex;
+   flex-direction: column;
+   column-gap: 4px;
+}
+
+.title-container > h1 {
+   margin: 0px;
+   font: 6.25rem "Poppins", sans-serif;
+   color: #5643FD;
+}
+
+.title-container > p {
+   margin: 0px;
+   font: 1.75rem "Inter", sans-serif;
+   text-transform: uppercase;
+   color: white;
+
+   position: relative;
+   top: -32px;
+}
