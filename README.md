@@ -6,3 +6,5 @@ Website for Nakshatra NITT
 * ReactJS
 * SpringBoot
 * PostGreSQL
+
+https://krishnadasnair-dev.github.io/NakshatraNITT/
