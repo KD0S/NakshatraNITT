@@ -10,8 +10,6 @@ function LandingPage() {
          <Navbar />
          <Title />
          <SocialHandles />
-
-
          <Moon />
       </div>
    );
