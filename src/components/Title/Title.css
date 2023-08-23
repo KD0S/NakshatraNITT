@@ -74,15 +74,25 @@
 
 .join-btn {
    align-self: center;
-   font: 500 1.4rem "Poppins", sans-serif;
+   font: 500 1.2rem "Poppins", sans-serif;
    text-transform: uppercase;
-   padding: 12px 32px;
+   padding: 8px 28px;
    color: #fff;
    background: #5643FD;
    outline: none;
    border: 0px;
    border-radius: 32px;
+   transition: padding 0.5s;
 }
+
+.join-btn:hover {
+   color: #5643FD;
+   background: #F5F3CE;
+   font: 800 1.2rem "Poppins", sans-serif;
+   padding: 12px 32px;
+}
+
+
 
 .nakshatra-logo {
    animation: 2.5s ease 0s infinite normal levitate;
