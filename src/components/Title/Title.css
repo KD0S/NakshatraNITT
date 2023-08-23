@@ -63,8 +63,8 @@
 .title-container > p {
    margin: 0px;
    font: 200 1.75rem "Inter", sans-serif;
-   color: white;
    text-transform: uppercase;
+   color: #F5F3CE;
 
    position: relative;
    top: -32px;
