@@ -1,35 +1,93 @@
+@keyframes rocket-landing {
+   0% {
+      transform: translateX(100vw) rotate(0deg);
+   }
+
+   50% {
+      transform: translateX(50vw) rotate(180deg);
+   }
+
+   100% {
+      transform: translateX(0px) rotate(0deg);
+   }
+}
+
+@keyframes fade {
+   from {
+      opacity: 0%;
+   }
+
+   to {
+      opacity: 100%;
+   }
+}
+
+@keyframes levitate {
+   0% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(-16px);
+   }
+
+   100% {
+      transform: translateY(0px);
+   }
+}
+
 .title-main {
    display: flex;
-   justify-content: flex-end;
-
-   position: absolute;
-   top: 50%; 
-   left: 75%;
-   transform: translate(-50%, -70%);
-
-   /* forces subtitle to be one line */
-   overflow: hidden;
-   white-space: nowrap;   
+   justify-content: center;
+   align-items: center;
+   width: calc(100% - 25rem);
+   height: 80vh;
+   position: relative;
+   left: 25rem;
 }
 
 .title-container {
    display: flex;
    flex-direction: column;
-   column-gap: 4px;
+   align-items: center;
+   animation: fade 1s;
 }
 
-.title-container > h1 {
+.title-container>h1 {
    margin: 0px;
-   font: 6.25rem "Poppins", sans-serif;
+   font: 600 6.25rem "Poppins", sans-serif;
    color: #5643FD;
+   animation: 2.5s ease 0s infinite normal levitate;
 }
 
-.title-container > p {
+.title-container>p {
    margin: 0px;
-   font: 1.75rem "Inter", sans-serif;
+   font: 200 1.75rem "Inter", sans-serif;
    text-transform: uppercase;
-   color: white;
+   color: #F5F3CE;
 
    position: relative;
    top: -32px;
+
+   animation: 2.5s ease 0s infinite normal levitate;
+}
+
+.join-btn {
+   align-self: center;
+   font: 500 1.4rem "Poppins", sans-serif;
+   text-transform: uppercase;
+   padding: 12px 32px;
+   color: #fff;
+   background: #5643FD;
+   outline: none;
+   border: 0px;
+   border-radius: 32px;
+}
+
+.nakshatra-logo {
+   animation: 2.5s ease 0s infinite normal levitate;
+}
+
+.rocket {
+   animation: rocket-landing 2s;
 }
