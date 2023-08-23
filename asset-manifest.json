@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NakshatraNITT/static/css/main.68a4e0ad.css",
+    "main.js": "/NakshatraNITT/static/js/main.e251d462.js",
+    "index.html": "/NakshatraNITT/index.html",
+    "main.68a4e0ad.css.map": "/NakshatraNITT/static/css/main.68a4e0ad.css.map",
+    "main.e251d462.js.map": "/NakshatraNITT/static/js/main.e251d462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a4e0ad.css",
+    "static/js/main.e251d462.js"
+  ]
+}
