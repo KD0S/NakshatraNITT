@@ -3,9 +3,9 @@ import "./Title.css";
 function Title() {
    return (
       <div className="title-main">
-         <div className="logo-container">
+         {/* <div className="logo-container">
             <img src={require("./nakshatra-logo.png")} alt="not supported" />
-         </div>
+         </div> */}
 
          <div className="title-container">
             <h1>Nakshatra</h1>

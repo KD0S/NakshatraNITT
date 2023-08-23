@@ -1,5 +1,5 @@
 .moon {
-    background-color: #f5f5f5;
+    background-color: #F5F3CE;
     height: 50rem;
     width: 50rem;
     border-radius: 50%;
@@ -14,11 +14,12 @@
     position: relative;
     content: "";
     display: block;
-    background-color: #e6e6e6;
+    background-color: #D9D8C5;
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 100%;
     top: 15rem;
     left: 30rem;
-    box-shadow: 0.9em -6.1em 0 0.5em #e6e6e6, 4.8em -2em 0 -0.45em #e6e6e6;
+    box-shadow: 0.9em -6.1em 0 0.5em #D9D8C5, 1.1em -6.1em 0 0.6em #C4C2A5, 4.8em -2em 0 -0.45em #D9D8C5,
+        5em -2em 0 -0.42em #C4C2A5;
 }
