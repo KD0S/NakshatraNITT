@@ -1,3 +1,20 @@
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
+            0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+    }
+
+    50% {
+        box-shadow: 0 0 0 1.5rem rgba(255, 255, 255, 0.05),
+            0 0 0 3rem rgba(255, 255, 255, 0.05), 0 0 0 4rem rgba(255, 255, 255, 0.05);
+    }
+
+    100% {
+        box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
+            0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+    }
+}
+
 .moon {
     background-color: #F5F3CE;
     height: 50rem;
@@ -6,8 +23,9 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 1.5rem rgba(255, 255, 255, 0.05),
-        0 0 0 4rem rgba(255, 255, 255, 0.05), 0 0 0 6rem rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
+        0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+    animation: pulse 3.5s ease-in infinite;
 }
 
 .moon:after {
