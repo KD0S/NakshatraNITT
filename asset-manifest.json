@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/NakshatraNITT/static/css/main.01a856d1.css",
-    "main.js": "/NakshatraNITT/static/js/main.1b714a0f.js",
+    "main.js": "/NakshatraNITT/static/js/main.a958dcf1.js",
     "static/media/nakshatra-logo.png": "/NakshatraNITT/static/media/nakshatra-logo.e7029fdc8955485348c9.png",
     "static/media/rocket.png": "/NakshatraNITT/static/media/rocket.bc5934d184ccd5da6723.png",
     "index.html": "/NakshatraNITT/index.html",
     "main.01a856d1.css.map": "/NakshatraNITT/static/css/main.01a856d1.css.map",
-    "main.1b714a0f.js.map": "/NakshatraNITT/static/js/main.1b714a0f.js.map"
+    "main.a958dcf1.js.map": "/NakshatraNITT/static/js/main.a958dcf1.js.map"
   },
   "entrypoints": [
     "static/css/main.01a856d1.css",
-    "static/js/main.1b714a0f.js"
+    "static/js/main.a958dcf1.js"
   ]
 }
