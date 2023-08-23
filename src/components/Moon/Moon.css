@@ -1,22 +1,25 @@
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
-            0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+            0 0 0 3.5rem rgba(255, 255, 255, 0.05),
+            0 0 0 4.5rem rgba(255, 255, 255, 0.05);
     }
 
     50% {
         box-shadow: 0 0 0 1.5rem rgba(255, 255, 255, 0.05),
-            0 0 0 3rem rgba(255, 255, 255, 0.05), 0 0 0 4rem rgba(255, 255, 255, 0.05);
+            0 0 0 3rem rgba(255, 255, 255, 0.05),
+            0 0 0 4rem rgba(255, 255, 255, 0.05);
     }
 
     100% {
         box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
-            0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+            0 0 0 3.5rem rgba(255, 255, 255, 0.05),
+            0 0 0 4.5rem rgba(255, 255, 255, 0.05);
     }
 }
 
 .moon {
-    background-color: #F5F3CE;
+    background-color: #f5f3ce;
     height: 50rem;
     width: 50rem;
     border-radius: 50%;
@@ -24,7 +27,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.05),
-        0 0 0 3.5rem rgba(255, 255, 255, 0.05), 0 0 0 4.5rem rgba(255, 255, 255, 0.05);
+        0 0 0 3.5rem rgba(255, 255, 255, 0.05),
+        0 0 0 4.5rem rgba(255, 255, 255, 0.05);
     animation: pulse 3.5s ease-in infinite;
 }
 
@@ -32,12 +36,12 @@
     position: relative;
     content: "";
     display: block;
-    background-color: #D9D8C5;
+    background-color: #d9d8c5;
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 100%;
     top: 15rem;
     left: 30rem;
-    box-shadow: 0.9em -6.1em 0 0.5em #D9D8C5, 1.1em -6.1em 0 0.6em #C4C2A5, 4.8em -2em 0 -0.45em #D9D8C5,
-        5em -2em 0 -0.42em #C4C2A5;
+    box-shadow: 0.9em -6.1em 0 0.5em #d9d8c5, 1.1em -6.1em 0 0.6em #c4c2a5,
+        4.8em -2em 0 -0.45em #d9d8c5, 5em -2em 0 -0.42em #c4c2a5;
 }

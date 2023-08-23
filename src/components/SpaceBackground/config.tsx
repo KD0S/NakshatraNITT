@@ -167,7 +167,7 @@ export const config: ISourceOptions = {
                 options: {
                     images: [
                         {
-                            src: "./red.png",
+                            src: "./assets/images/amongus-red.png",
                         },
                     ],
                 },

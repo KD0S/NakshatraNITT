@@ -1,30 +1,63 @@
-.title-main {
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
+@keyframes rocket-landing {
+   0% {
+      transform: translateX(100vw) rotate(0deg);
+   }
 
-   height: 75vh;
+   50% {
+      transform: translateX(50vw) rotate(180deg);
+   }
 
-   /* forces subtitle to be one line */
-   /* overflow: hidden;
-   white-space: nowrap;  */
+   100% {
+      transform: translateX(0px) rotate(0deg);
+   }
 }
 
-.logo-container {
-   flex-grow: 1;
+@keyframes fade {
+   from {
+      opacity: 0%;
+   }
+
+   to {
+      opacity: 100%;
+   }
+}
+
+@keyframes levitate {
+   0% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(-16px);
+   }
+
+   100% {
+      transform: translateY(0px);
+   }
+}
+
+.title-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: calc(100% - 25rem);
+   height: 80vh;
+   position: relative;
+   left: 25rem;
 }
 
 .title-container {
    display: flex;
    flex-direction: column;
-
-   margin-right: 64px;
+   align-items: center;
+   animation: fade 1s;
 }
 
 .title-container>h1 {
    margin: 0px;
    font: 600 6.25rem "Poppins", sans-serif;
    color: #5643FD;
+   animation: 2.5s ease 0s infinite normal levitate;
 }
 
 .title-container>p {
@@ -35,6 +68,8 @@
 
    position: relative;
    top: -32px;
+
+   animation: 2.5s ease 0s infinite normal levitate;
 }
 
 .join-btn {
@@ -47,4 +82,12 @@
    outline: none;
    border: 0px;
    border-radius: 32px;
+}
+
+.nakshatra-logo {
+   animation: 2.5s ease 0s infinite normal levitate;
+}
+
+.rocket {
+   animation: rocket-landing 2s;
 }
