@@ -1,10 +1,10 @@
-import "./Moon.css"
+import "./Moon.css";
 
 export default function Moon() {
-    return (
-        <div className="moon-container">
-            <div className="moon"></div>
-            <div className="orbit"></div>
-        </div>
-    )
+   return (
+      <div className="moon-container">
+         <div className="moon"></div>
+         <div className="orbit"></div>
+      </div>
+   );
 }
