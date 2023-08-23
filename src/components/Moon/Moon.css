@@ -15,10 +15,10 @@
     content: "";
     display: block;
     background-color: #e6e6e6;
-    height: 3rem;
-    width: 3rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 100%;
-    top: 8rem;
-    left: 2.5rem;
-    box-shadow: 0.9em -4.1em 0 0.5em #e6e6e6, 3.5em -1em 0 -0.45em #e6e6e6;
+    top: 12rem;
+    left: 29rem;
+    box-shadow: 3rem -5.5rem 0 0.53em #e6e6e6, 6rem -0.6rem 0 -0.4em #e6e6e6;
 }
