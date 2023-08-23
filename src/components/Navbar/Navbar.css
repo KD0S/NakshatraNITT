@@ -16,7 +16,7 @@
    border-radius: 8px;
 }
 
-.navbar-container > li > a {
+.navbar-container>li>a {
    font: 500 1rem "Inter", sans-serif;
    color: #f5f3ce;
    text-decoration: none;

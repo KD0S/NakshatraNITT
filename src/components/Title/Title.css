@@ -77,12 +77,21 @@
    font: 500 1.2rem "Poppins", sans-serif;
    text-transform: uppercase;
    padding: 8px 28px;
-   color: #fff;
+   color: #F5F3CE;
    background: #5643FD;
    outline: none;
    border: 0px;
    border-radius: 32px;
+   transition: padding 0.5s;
 }
+
+.join-btn:hover {
+   font: 800 1.2rem "Poppins", sans-serif;
+   padding: 12px 32px;
+   color: #5643FD;
+   background: #F5F3CE;
+}
+
 
 .nakshatra-logo {
    animation: 2.5s ease 0s infinite normal levitate;

@@ -8,7 +8,7 @@ function Title() {
       <div className="title-main">
          {!rocketLandStatus && (
             <img
-               src={process.env.PUBLIC_URL + 'assets/images/rocket.jpg'}
+               src="/assets/images/rocket.png"
                alt="not supported"
                width={180}
                className="rocket"
@@ -19,7 +19,7 @@ function Title() {
          {rocketLandStatus && (
             <div className="title-container">
                <img
-                  src={process.env.PUBLIC_URL + 'assets/images/nakshatra-logo.jpg'}
+                  src="/assets/images/nakshatra-logo.png"
                   alt="not supported"
                   width={180}
                   className="nakshatra-logo"
