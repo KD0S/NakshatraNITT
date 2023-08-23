@@ -1,5 +1,4 @@
 import { ISourceOptions } from "tsparticles-engine";
-import red from "../../assets/images/amongus-red.png"
 
 export const config: ISourceOptions = {
     fullScreen: {
@@ -168,7 +167,7 @@ export const config: ISourceOptions = {
                 options: {
                     images: [
                         {
-                            src: { red },
+                            src: "../../assets/images/red.png",
                         },
                     ],
                 },
