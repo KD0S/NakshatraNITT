@@ -1,6 +1,6 @@
 import { useState } from "react";
-import rocket from "../../assets/images/rocket.png"
-import logo from "../../assets/images/nakshatra-logo.png"
+import rocket from "../../assets/images/rocket.png";
+import logo from "../../assets/images/nakshatra-logo.png";
 import "./Title.css";
 
 function Title() {
@@ -12,7 +12,6 @@ function Title() {
             <img
                src={rocket}
                alt="not supported"
-               width={180}
                className="rocket"
                onAnimationEnd={() => setRocketLandStatus(true)}
             />
@@ -20,12 +19,7 @@ function Title() {
 
          {rocketLandStatus && (
             <div className="title-container">
-               <img
-                  src={logo}
-                  alt="not supported"
-                  width={180}
-                  className="nakshatra-logo"
-               />
+               <img src={logo} alt="not supported" className="nakshatra-logo" />
                <h1>Nakshatra</h1>
                <p>The astronomy and science club of nitt</p>
                <button className="join-btn">Join</button>

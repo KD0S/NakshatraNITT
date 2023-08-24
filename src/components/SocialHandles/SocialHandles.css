@@ -3,13 +3,22 @@
    column-gap: 64px;
    justify-content: center;
    align-items: center;
-
-   /* the icons array will occupy remnant space in landing page */
-   flex-grow: 1;
+   margin: 24px;
 }
 
 .socials-icon {
    width: 24px;
    height: 24px;
-   color: #988CFF;
+   color: #988cff;
+}
+
+@media (max-width: 475px) {
+   .socials-main {
+      column-gap: 40px;
+      margin: 16px;
+   }
+
+   .socials-icon {
+      width: 16px;
+   }
 }
