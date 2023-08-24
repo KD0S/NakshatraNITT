@@ -1,4 +1,6 @@
 import { useState } from "react";
+import rocket from "../../assets/images/rocket.png"
+import logo from "../../assets/images/nakshatra-logo.png"
 import "./Title.css";
 
 function Title() {
@@ -8,7 +10,7 @@ function Title() {
       <div className="title-main">
          {!rocketLandStatus && (
             <img
-               src="/assets/images/rocket.png"
+               src={rocket}
                alt="not supported"
                width={180}
                className="rocket"
@@ -19,7 +21,7 @@ function Title() {
          {rocketLandStatus && (
             <div className="title-container">
                <img
-                  src="/assets/images/nakshatra-logo.png"
+                  src={logo}
                   alt="not supported"
                   width={180}
                   className="nakshatra-logo"
