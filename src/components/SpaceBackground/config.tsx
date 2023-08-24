@@ -1,4 +1,5 @@
 import { ISourceOptions } from "tsparticles-engine";
+import red from "../../assets/images/amongus-red.png"
 
 export const config: ISourceOptions = {
     fullScreen: {
@@ -141,13 +142,13 @@ export const config: ISourceOptions = {
         },
     },
     detectRetina: true,
-    background: {
-        color: "#000000",
-        image: "",
-        position: "50% 50%",
-        repeat: "no-repeat",
-        size: "cover",
-    },
+    // background: {
+    //     color: "#000000",
+    //     image: "",
+    //     position: "50% 50%",
+    //     repeat: "no-repeat",
+    //     size: "cover",
+    // },
     emitters: {
         position: {
             y: 55,
@@ -167,7 +168,7 @@ export const config: ISourceOptions = {
                 options: {
                     images: [
                         {
-                            src: "../../assets/images/red.png",
+                            src: red,
                         },
                     ],
                 },

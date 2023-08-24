@@ -14,7 +14,7 @@ function Navbar() {
                <a href="#events">Events</a>
             </li>
             <li>
-               <a href="#achievments">Achievements</a>
+               <a href="#achievements">Achievements</a>
             </li>
          </div>
       </ul>
