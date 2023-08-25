@@ -6,14 +6,12 @@ import Moon from "../../components/Moon/Moon";
 
 function LandingPage() {
    return (
-      <section>
-         <div className="landing-main">
-            <Navbar />
-            <Title />
-            <SocialHandles />
-            <Moon />
-         </div>
-      </section>
+      <div className="landing-main">
+         <Navbar />
+         <Title />
+         <SocialHandles />
+         <Moon />
+      </div>
    );
 }
 
