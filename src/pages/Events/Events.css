@@ -24,8 +24,24 @@
 #events-body>div {
     font: 400 1rem "Poppins", sans-serif;
     color: #fff;
-    width: 55%;
+    width: 80%;
     border-radius: 20px;
     padding: 1rem;
     text-align: justify;
+}
+
+@media (max-width: 475px) {
+    #events {
+        width: 100vw;
+        left: 0;
+    }
+
+    #events>h1 {
+        font-size: 3.2rem;
+    }
+
+    #events-body>div {
+        font-size: 0.9rem;
+        top: -16px;
+    }
 }
