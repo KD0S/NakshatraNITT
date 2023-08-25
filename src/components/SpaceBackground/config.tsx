@@ -10,23 +10,15 @@ export const config: ISourceOptions = {
         groups: {
             z5000: {
                 number: {
-                    value: 70,
+                    value: 10,
                 },
                 zIndex: {
                     value: 5000,
                 },
             },
-            z7500: {
-                number: {
-                    value: 30,
-                },
-                zIndex: {
-                    value: 75,
-                },
-            },
             z2500: {
                 number: {
-                    value: 50,
+                    value: 5,
                 },
                 zIndex: {
                     value: 25,
@@ -34,7 +26,7 @@ export const config: ISourceOptions = {
             },
             z1000: {
                 number: {
-                    value: 40,
+                    value: 2,
                 },
                 zIndex: {
                     value: 10,
@@ -42,10 +34,10 @@ export const config: ISourceOptions = {
             },
         },
         number: {
-            value: 200,
+            value: 40,
             density: {
                 enable: false,
-                value_area: 800,
+                value_area: 100,
             },
         },
         color: {
@@ -85,7 +77,7 @@ export const config: ISourceOptions = {
                 offset: 0,
             },
             enable: true,
-            speed: 5,
+            speed: 2,
             direction: "right",
             random: false,
             straight: true,
