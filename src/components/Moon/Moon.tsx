@@ -4,7 +4,6 @@ export default function Moon() {
    return (
       <div className="moon-container">
          <div className="moon"></div>
-         <div className="orbit"></div>
       </div>
    );
 }
