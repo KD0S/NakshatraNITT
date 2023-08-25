@@ -16,17 +16,9 @@ export const config: ISourceOptions = {
                     value: 5000,
                 },
             },
-            z2500: {
+            z10: {
                 number: {
                     value: 5,
-                },
-                zIndex: {
-                    value: 25,
-                },
-            },
-            z1000: {
-                number: {
-                    value: 2,
                 },
                 zIndex: {
                     value: 10,
