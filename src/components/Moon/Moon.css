@@ -18,6 +18,21 @@
    }
 }
 
+/* In mobile design, the moon is placed at the
+top, with part of its south exposed. But this 
+caused an overflow in x direction as the moon 
+wasn't contained. A solution to this is to nest 
+the moon inside a parent container and prevent 
+that overflow */
+.moon-container {
+   /* since moon is positioned absolutely, the 
+   container should also be position absolutely */
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
 .moon {
    background-color: #f5f3ce;
    height: 50rem;
@@ -48,7 +63,7 @@
 
 @media (max-width: 475px) {
    .moon {
-      top: -50%;
-      left: 50%;
+      top: -42rem;
+      transform: translate(0, 0);
    }
 }

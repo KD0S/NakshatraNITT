@@ -20,11 +20,19 @@
 
 @keyframes levitate {
    0% {
-      transform: translateY(0);
+      transform: translateY(0px);
+   }
+
+   25% {
+      transform: translateY(8px);
    }
 
    50% {
-      transform: translateY(-16px);
+      transform: translateY(0px);
+   }
+
+   75% {
+      transform: translateY(-8px);
    }
 
    100% {
