@@ -10,6 +10,7 @@
 
 .card-main:hover {
    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+   cursor: pointer;
 }
 
 .card-main>img {
