@@ -8,10 +8,11 @@
    row-gap: 32px;
 }
 
-#events > h1 {
+#events>h1 {
    color: #5643fd;
    font: 600 4rem "Poppins", sans-serif;
-   margin: 0px; /* removing default header margin */
+   margin: 0px;
+   /* removing default header margin */
    animation: 2.5s ease 0s infinite normal levitate;
 }
 
@@ -23,7 +24,7 @@
 }
 
 @media (max-width: 475px) {
-   #events > h1 {
+   #events>h1 {
       font-size: 3rem;
    }
 
