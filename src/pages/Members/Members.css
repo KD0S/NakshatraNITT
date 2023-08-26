@@ -1,0 +1,43 @@
+#members {
+   width: 100%;
+   padding: 32px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 32px;
+}
+
+#members>h1 {
+   color: #5643fd;
+   font: 600 4rem "Poppins", sans-serif;
+   margin: 0px;
+   /* removing default header margin */
+   animation: 2.5s ease 0s infinite normal levitate;
+}
+
+
+.card-main>img {
+   width: 100%;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+
+#members-cards-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 8%;
+   width: 90%;
+}
+
+@media (max-width: 475px) {
+   #members>h1 {
+      font-size: 3rem;
+   }
+
+   #members-cards-container {
+      flex-direction: column;
+      row-gap: 32px;
+   }
+}

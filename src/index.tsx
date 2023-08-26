@@ -7,6 +7,7 @@ import { About } from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import { Events } from './pages/Events/Events';
 import { Achievements } from './pages/Achievements/Achievements';
+import { Members } from './pages/Members/Members'
 
 const root = ReactDOM.createRoot(
    document.getElementById('root') as HTMLElement
@@ -20,5 +21,6 @@ root.render(
       <Projects></Projects>
       <Events></Events>
       <Achievements></Achievements>
+      <Members></Members>
    </React.StrictMode>
 );
