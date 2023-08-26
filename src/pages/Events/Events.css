@@ -23,6 +23,11 @@
    column-gap: 8%;
 }
 
+#events-cards-container>.card-main {
+   cursor: pointer;
+}
+
+
 @media (max-width: 475px) {
    #events>h1 {
       font-size: 3rem;
