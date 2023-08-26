@@ -1,0 +1,40 @@
+.card-main {
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+}
+
+.card-main > img {
+   width: 100%;
+   border-top-left-radius: 32px;
+   border-top-right-radius: 32px;
+}
+
+.card-text {
+   color: #f5f3ce;
+   padding: 20px;
+
+   display: flex;
+   flex-direction: column;
+   row-gap: 8px;
+
+   text-align: justify;
+   border-bottom-left-radius: 32px;
+   border-bottom-right-radius: 32px;
+}
+
+.card-text > h4 {
+   margin: 0px; /* removing default h4 margin */
+   font: 800 1rem "Poppins", sans-serif;
+}
+
+.card-text > p {
+   margin: 0px; /* removing default p margin */
+   font: 400 1rem "Poppins", sans-serif;
+}
+
+@media (max-width: 475px) {
+   .card-main {
+      width: 90%;
+   }
+}
