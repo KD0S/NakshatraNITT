@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/NakshatraNITT/static/css/main.64ab1503.css",
-    "main.js": "/NakshatraNITT/static/js/main.d63bd17c.js",
+    "main.css": "/NakshatraNITT/static/css/main.6c7ef9d7.css",
+    "main.js": "/NakshatraNITT/static/js/main.0e94b671.js",
+    "static/media/stargazing-poster.png": "/NakshatraNITT/static/media/stargazing-poster.58b754578466ac86afaa.png",
+    "static/media/world-space-week-poster.png": "/NakshatraNITT/static/media/world-space-week-poster.a6c63cf972f376d20b98.png",
+    "static/media/stardust-poster.png": "/NakshatraNITT/static/media/stardust-poster.a48818a61023d5d29084.png",
+    "static/media/nishanth.png": "/NakshatraNITT/static/media/nishanth.d1504de6e7e63a30656f.png",
+    "static/media/dhruva.png": "/NakshatraNITT/static/media/dhruva.93be6dd0367386e38fc2.png",
+    "static/media/krishnadas.png": "/NakshatraNITT/static/media/krishnadas.06403f27a124b2d22299.png",
+    "static/media/harshith.png": "/NakshatraNITT/static/media/harshith.75abb8b801323cea3cd5.png",
+    "static/media/karna.png": "/NakshatraNITT/static/media/karna.0709a920cda395b7385e.png",
     "static/media/nakshatra-logo.png": "/NakshatraNITT/static/media/nakshatra-logo.e7029fdc8955485348c9.png",
     "static/media/rocket.png": "/NakshatraNITT/static/media/rocket.bc5934d184ccd5da6723.png",
     "index.html": "/NakshatraNITT/index.html",
-    "main.64ab1503.css.map": "/NakshatraNITT/static/css/main.64ab1503.css.map",
-    "main.d63bd17c.js.map": "/NakshatraNITT/static/js/main.d63bd17c.js.map"
+    "main.6c7ef9d7.css.map": "/NakshatraNITT/static/css/main.6c7ef9d7.css.map",
+    "main.0e94b671.js.map": "/NakshatraNITT/static/js/main.0e94b671.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ab1503.css",
-    "static/js/main.d63bd17c.js"
+    "static/css/main.6c7ef9d7.css",
+    "static/js/main.0e94b671.js"
   ]
 }
