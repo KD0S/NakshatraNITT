@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import "./Navmenu.css";
 
 interface NavmenuInterface {
    isMenuOpen: boolean;
+   setMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-function Navmenu({ isMenuOpen }: NavmenuInterface) {
+function Navmenu({ isMenuOpen, setMenuOpen }: NavmenuInterface) {   
+
+   useEffect(() => {
+      document.body.style.overflow = isMenuOpen ? "hidden" : "visible";
+   }, [isMenuOpen])
+
    return (
       <div
          className={
@@ -13,11 +20,21 @@ function Navmenu({ isMenuOpen }: NavmenuInterface) {
                : "navmenu reverse-menu-drop-animation"
          }
       >
-         <a href="#about">About</a>
-         <a href="#projects">Projects</a>
-         <a href="#events">Events</a>
-         <a href="#achievments">Achievements</a>
-         <a href="#members">Members</a>
+         <a href="#about" onClick={() => setMenuOpen(false)}>
+            About
+         </a>
+         <a href="#projects" onClick={() => setMenuOpen(false)}>
+            Projects
+         </a>
+         <a href="#events" onClick={() => setMenuOpen(false)}>
+            Events
+         </a>
+         <a href="#achievements" onClick={() => setMenuOpen(false)}>
+            Achievements
+         </a>
+         <a href="#members" onClick={() => setMenuOpen(false)}>
+            Members
+         </a>
       </div>
    );
 }

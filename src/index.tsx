@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import SpaceBackground from './components/SpaceBackground/SpaceBackground';
+import SocialHandles from "./components/SocialHandles/SocialHandles";
 import LandingPage from './pages/LandingPage/LandingPage';
 import { About } from './pages/About/About';
 import Projects from './pages/Projects/Projects';
@@ -22,5 +23,6 @@ root.render(
       <Events></Events>
       <Achievements></Achievements>
       <Members></Members>
+      <SocialHandles />
    </React.StrictMode>
 );
