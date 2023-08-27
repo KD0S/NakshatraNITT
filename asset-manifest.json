@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NakshatraNITT/static/css/main.d1b020e7.css",
-    "main.js": "/NakshatraNITT/static/js/main.64663bc5.js",
+    "main.css": "/NakshatraNITT/static/css/main.6f134d86.css",
+    "main.js": "/NakshatraNITT/static/js/main.b51ef65d.js",
     "static/media/stargazing-poster.png": "/NakshatraNITT/static/media/stargazing-poster.58b754578466ac86afaa.png",
     "static/media/world-space-week-poster.png": "/NakshatraNITT/static/media/world-space-week-poster.a6c63cf972f376d20b98.png",
     "static/media/stardust-poster.png": "/NakshatraNITT/static/media/stardust-poster.a48818a61023d5d29084.png",
@@ -13,11 +13,11 @@
     "static/media/nakshatra-logo.png": "/NakshatraNITT/static/media/nakshatra-logo.e7029fdc8955485348c9.png",
     "static/media/rocket.png": "/NakshatraNITT/static/media/rocket.bc5934d184ccd5da6723.png",
     "index.html": "/NakshatraNITT/index.html",
-    "main.d1b020e7.css.map": "/NakshatraNITT/static/css/main.d1b020e7.css.map",
-    "main.64663bc5.js.map": "/NakshatraNITT/static/js/main.64663bc5.js.map"
+    "main.6f134d86.css.map": "/NakshatraNITT/static/css/main.6f134d86.css.map",
+    "main.b51ef65d.js.map": "/NakshatraNITT/static/js/main.b51ef65d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1b020e7.css",
-    "static/js/main.64663bc5.js"
+    "static/css/main.6f134d86.css",
+    "static/js/main.b51ef65d.js"
   ]
 }
