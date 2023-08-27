@@ -51,7 +51,7 @@ function Navbar() {
                ></div>
             </div>
          </ul>
-         <Navmenu isMenuOpen={isMenuOpen} />
+         <Navmenu isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
       </>
    );
 }
