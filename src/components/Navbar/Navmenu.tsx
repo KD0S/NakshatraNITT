@@ -16,7 +16,7 @@ function Navmenu({ isMenuOpen }: NavmenuInterface) {
          <a href="#about">About</a>
          <a href="#projects">Projects</a>
          <a href="#events">Events</a>
-         <a href="#achievments">Achievements</a>
+         <a href="#achievements">Achievements</a>
          <a href="#members">Members</a>
       </div>
    );
