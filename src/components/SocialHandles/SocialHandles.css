@@ -15,9 +15,11 @@
 }
 
 .socials-icon:hover {
-   width: 40px;
-   height: 40px;
+   width: 36px;
+   height: 36px;
    color: #f5f3ce;
+   margin: 0px;
+   padding: 0px;
 }
 
 @media (max-width: 475px) {

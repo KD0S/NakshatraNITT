@@ -4,7 +4,7 @@ Website for Nakshatra NITT
 ## Tech Stack :
 
 * ReactJS
-* SpringBoot
+* Express
 * PostGreSQL
 
 https://krishnadasnair-dev.github.io/NakshatraNITT/
