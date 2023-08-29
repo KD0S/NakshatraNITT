@@ -15,14 +15,6 @@
    animation: 2.5s ease 0s infinite normal levitate;
 }
 
-#members-cards-container > .card-main > img {
-   width: 90%;
-   aspect-ratio: 1;
-   border-radius: 50%;
-   align-self: center;
-   margin-bottom: 8px;
-}
-
 #members-cards-container {
    display: flex;
    justify-content: center;
@@ -31,13 +23,26 @@
    width: 90%;
 }
 
+#members-cards-container > .card-main > img {
+   width: 80%;
+   aspect-ratio: 1;
+   border-radius: 50%;
+   align-self: center;
+   margin-bottom: 16px;
+}
+
+#members-cards-container > .card-main > .card-text {
+   align-items: center;
+}
+
 @media (max-width: 475px) {
    #members > h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
+      text-align: center;
    }
 
    #members-cards-container {
       flex-direction: column;
-      row-gap: 32px;
+      row-gap: 48px;
    }
 }
