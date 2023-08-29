@@ -17,14 +17,18 @@ function Title() {
             />
          )}
 
-         {rocketLandStatus && (
-            <div className="title-container">
-               <img src={logo} alt="not supported" className="nakshatra-logo" />
-               <h1>Nakshatra</h1>
-               <p>The astronomy and science club of nitt</p>
-               <button className="join-btn">Join</button>
-            </div>
-         )}
+         <div
+            className={
+               !rocketLandStatus
+                  ? "title-container title-not-visible"
+                  : "title-container title-visible"
+            }
+         >
+            <img src={logo} alt="not supported" className="nakshatra-logo" />
+            <h1>Nakshatra</h1>
+            <p>The astronomy and science club of nitt</p>
+            <button className="join-btn">Join</button>
+         </div>
       </div>
    );
 }
