@@ -1,3 +1,15 @@
+@keyframes hide-socials {
+   0% {
+      top: 0;
+      opacity: 1;
+   }
+
+   100% {
+      top: -16px;
+      opacity: 0;
+   }
+}
+
 .socials-main {
    display: flex;
    column-gap: 64px;
@@ -20,6 +32,13 @@
    color: #f5f3ce;
    margin: 0px;
    padding: 0px;
+}
+
+.hide-socials {
+   position: relative;
+   top: 0;
+   opacity: 0;
+   animation: 0.5s ease 0s 1 normal hide-socials;
 }
 
 @media (max-width: 475px) {
