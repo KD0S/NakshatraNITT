@@ -3,10 +3,7 @@
    column-gap: 64px;
    justify-content: center;
    align-items: center;
-   margin: 24px;
-
-   position: sticky;
-   bottom: 12px; /* equal to margin */
+   margin: 20px;
 }
 
 .socials-icon {
@@ -14,7 +11,7 @@
    height: 24px;
    color: #5643fd;
    cursor: pointer;
-   transition: 0.5s ease;
+   transition: 0.3s ease;
 }
 
 .socials-icon:hover {
