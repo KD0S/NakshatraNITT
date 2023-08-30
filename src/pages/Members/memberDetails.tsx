@@ -28,7 +28,7 @@ export const membersDetails = [
    },
    {
       imgPath: karna,
-      name: "Karan Sai Balaji",
+      name: "Karna Sai Balaji",
       position: `Treasurer`,
    },
 ];
