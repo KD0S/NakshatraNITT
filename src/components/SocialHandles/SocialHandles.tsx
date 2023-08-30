@@ -8,16 +8,18 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./SocialHandles.css";
 
-function SocialHandles() {
+interface SocialHandlesInterface {
+   isVisible?: Boolean;
+}
+
+function SocialHandles({ isVisible }: SocialHandlesInterface) {
    return (
-      <div className="socials-main">
+      <div className={isVisible ? "socials-main" : "socials-main hide-socials"}>
          <a href="https://www.instagram.com/nakshatra_nitt/">
-            <FontAwesomeIcon icon={faInstagram}
-               className="socials-icon" />
+            <FontAwesomeIcon icon={faInstagram} className="socials-icon" />
          </a>
          <a href="https://twitter.com/NakshatraNITT">
-            <FontAwesomeIcon icon={faXTwitter}
-               className="socials-icon" />
+            <FontAwesomeIcon icon={faXTwitter} className="socials-icon" />
          </a>
          <a href="https://medium.com/nakshatra">
             <FontAwesomeIcon icon={faMedium} className="socials-icon" />

@@ -35,6 +35,6 @@
 
    #events-cards-container {
       flex-direction: column;
-      row-gap: 32px;
+      row-gap: 48px;
    }
 }
