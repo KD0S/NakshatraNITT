@@ -1,12 +1,21 @@
+@keyframes hide-socials {
+   0% {
+      top: 0;
+      opacity: 1;
+   }
+
+   100% {
+      top: -16px;
+      opacity: 0;
+   }
+}
+
 .socials-main {
    display: flex;
    column-gap: 64px;
    justify-content: center;
    align-items: center;
-   margin: 24px;
-
-   position: sticky;
-   bottom: 12px; /* equal to margin */
+   margin: 20px;
 }
 
 .socials-icon {
@@ -14,7 +23,7 @@
    height: 24px;
    color: #5643fd;
    cursor: pointer;
-   transition: 0.5s ease;
+   transition: 0.3s ease;
 }
 
 .socials-icon:hover {
@@ -23,6 +32,13 @@
    color: #f5f3ce;
    margin: 0px;
    padding: 0px;
+}
+
+.hide-socials {
+   position: relative;
+   top: 0;
+   opacity: 0;
+   animation: 0.5s ease 0s 1 normal hide-socials;
 }
 
 @media (max-width: 475px) {

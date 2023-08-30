@@ -23,6 +23,6 @@ root.render(
       <Events></Events>
       <Achievements></Achievements>
       <Members></Members>
-      <SocialHandles />
+      <SocialHandles isVisible={true}/>
    </React.StrictMode>
 );
