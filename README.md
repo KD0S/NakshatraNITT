@@ -7,4 +7,4 @@ Website for Nakshatra NITT
 * Express
 * PostGreSQL
 
-[https://krishnadasnair-dev.github.io/NakshatraNITT/](https://kd0s.github.io/NakshatraNITT/)
+[https://KD0S.github.io/NakshatraNITT/](https://kd0s.github.io/NakshatraNITT/)
