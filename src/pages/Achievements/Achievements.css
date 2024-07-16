@@ -12,14 +12,14 @@
    color: #5643fd;
    font: 600 4rem "Poppins", sans-serif;
    margin: 0px;
-   /* removing default header margin */
-   animation: 2.5s ease 0s infinite normal levitate;
+   /*removingdefaultheadermargin*/animation: 2.5s ease 0s infinite normal levitate;
+   -webkit-animation: 2.5s ease 0s infinite normal levitate;
 }
 
 #achievements > ul {
    width: 60%;
    color: #f5f3ce;
-   font: 400 1rem "Poppins", sans-serif;
+   font: 400 1.3rem "Poppins", sans-serif;
    /* removing default margin */
    margin: 0px; 
    padding: 32px;

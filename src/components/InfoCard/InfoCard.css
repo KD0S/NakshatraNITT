@@ -35,13 +35,13 @@
 .card-text>h4 {
    margin: 0px;
    /* removing default h4 margin */
-   font: 800 1.05rem "Poppins", sans-serif;
+   font: 800 1.3rem "Poppins", sans-serif;
 }
 
 .card-text>p {
    margin: 0px;
    /* removing default p margin */
-   font: 400 0.95rem "Poppins", sans-serif;
+   font: 400 1.2rem "Poppins", sans-serif;
 }
 
 @media (max-width: 475px) {
